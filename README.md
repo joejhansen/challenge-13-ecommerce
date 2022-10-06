@@ -4,6 +4,12 @@
 
 Using Express, mySQL, and Sequelize to create a functional database for an e-commerce website.
 
+## Resources
+
+[Github Repository](https://github.com/joejhansen/challenge-13-ecommerce)
+
+[Video Walkthrough](https://youtu.be/QieQzCqX-Co)
+
 ## Installation and Setup
 
 Simply run a terminal within the "Develop" folder and install the dependencies with 
@@ -16,7 +22,7 @@ Then login to you mySQL server with
 
 and enter your password. After logging in, use
 
-`db/schema.sql`
+`SOURCE db/schema.sql;`
 
 To set up your database. 
 
@@ -24,7 +30,7 @@ To seed the databse, make sure you have your databse name, mySQL user, and passw
 
 After setting up your credentials in the .env, use
 
-`dpm run seed`
+`npm run seed`
 
 ## Starting the server
 
